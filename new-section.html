@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        .videos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .video {
+            flex: 0 0 calc(33.33% - 20px);
+            background-color: #f0f0f0;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YouTube</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li>Головна</li>
+            <li>Популярне</li>
+            <li>Підписки</li>
+        </ul>
+    </nav>
+    
+    <div class="videos-container">
+        <!-- Ваші відео блоки тут -->
+        <div class="video">
+            <h2>Відео 1</h2>
+            <p>Опис відео 1</p>
+        </div>
+        <div class="video">
+            <h2>Відео 2</h2>
+            <p>Опис відео 2</p>
+        </div>
+        <div class="video">
+            <h2>Відео 3</h2>
+            <p>Опис відео 3</p>
+        </div>
+        <!-- Додайте більше відео блоків тут -->
+    </div>
+</body>
+</html>
